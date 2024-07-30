@@ -1,6 +1,6 @@
 version: "3"
 services:
   web-server:
-    image: nginx:latest
+    image: httpd:latest
     ports:
       - "8080:80"
