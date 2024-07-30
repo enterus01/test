@@ -1,6 +1,7 @@
 version: "3"
 services:
   web-server:
+    restart: always
     image: httpd:latest
     ports:
       - "8080:80"
